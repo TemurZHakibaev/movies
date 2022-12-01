@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form id="form">
+      <input type="search" name="search" placeholder="search" />
+      <select name="genre">
+        <option value="all">ALL</option>
+      </select>
+      <select name="sort">
+        <option value="a-z">A-Z</option>
+        <option value="z-a">Z-A</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+    <h2 id="title"></h2>
+
+    <ul id="box" style="display: flex; flex-wrap: wrap"></ul>
+
+    <script src="./films.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

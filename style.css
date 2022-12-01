@@ -1,0 +1,8 @@
+select, input{
+    width: 250px;
+    padding: 5px 15px;
+}
+
+button{
+    padding: 5px 25px;
+}
